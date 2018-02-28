@@ -1,4 +1,4 @@
-site_name: ElixirBook
+site_name: ErlangBook
 site_author: Arif Hussain Bangash
 page:
   - Home: index.md
@@ -8,29 +8,25 @@ theme:
   name: material
   custom_dir: 'material'
   palette:
-    primary: 'deep purple'
-    accent: 'deep purple'
+    primary: 'red'
+    accent: 'red'
   # logo:
   #   icon: opacity
   # favicon: 'assets/images/favicon.ico'
 
 repo_name: 'Source at Github'
-repo_url: 'https://github.com/elixirbook/source'
+repo_url: 'https://github.com/erlangbook/source'
 edit_uri: ''
 
 extra:
   social:
     - type: 'github'
-      link: 'https://github.com/elixirbook'
+      link: 'https://github.com/erlangbook'
     - type: 'twitter'
-      link: 'https://twitter.com/elixir_book'
+      link: 'https://twitter.com/devotiongeo'
 
 markdown_extensions:
   - codehilite
   - admonition
   - toc:
-      permalink: '|>'
-
-
-copyright: 'Arif Hussain Bangash - @DevotionGeo'
-  
+      permalink: true
